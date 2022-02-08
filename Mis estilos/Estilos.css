@@ -1,0 +1,25 @@
+.navbar-brand {
+  background-color: #7f5597;
+}
+.pepito {
+  background-color: #7f5597;
+}
+.offcanvas-header {
+  background-color: #a59a9e;
+}
+body {
+  background-color: #7f5597;
+}
+.navbar {
+  padding: 0%;
+}
+.text-muted {
+  color: white !important;
+}
+.btn-primary {
+  background-color: #7f5597;
+  border-color: white;
+}
+.navbar-brand img {
+  max-width: 175px;
+}

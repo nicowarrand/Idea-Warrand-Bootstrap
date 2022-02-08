@@ -17,53 +17,52 @@
   </head>
   <body>
     <!--NavBar-->
-    <nav class="navbar navbar-dark bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img class="w-25" src="/Img/gotasderocio.jpg" alt="logo"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-            <button
-              type="button"
-              class="btn-close text-reset"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+    <section class="pepito">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="/Img/gotasderocio.jpg" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Inicio</a
+                >
               </li>
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/Paginas/nosotros.html">Nosotros</a>
+              <li class="nav-item">
+                <a class="nav-link" href="/Paginas/nosotros.html">Nosotros</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="/Paginas/contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/Paginas/ayuda.html">Ayuda</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/Paginas/ayuda.html"
+                  >Ayuda</a
+                >
+              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
                   href="/Paginas/productos.html"
-                  id="offcanvasNavbarDropdown"
+                  id="navbarDropdownMenuLink"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -72,27 +71,105 @@
                 </a>
                 <ul
                   class="dropdown-menu"
-                  aria-labelledby="offcanvasNavbarDropdown"
+                  aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <li><a class="dropdown-item" href="#">Aguas de almohada</a></li>
-                  <li><a class="dropdown-item" href="#">Aguas florida</a></li>
                   <li>
+                    <a class="dropdown-item" href="#"
+                      >Rocios De Los 7 Chacras</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Oleo 33</a>
+                    <a class="dropdown-item" href="#">Agua Florida Natural</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Rocios angelicales</a>
+                    <a class="dropdown-item" href="#">Agua De Rosas Natural</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Oleo 33</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Rocios Angelicales</a>
                   </li>
                 </ul>
               </li>
             </ul>
-            <form class="d-flex">
-              </button>
-            </form>
           </div>
         </div>
+      </nav>
+    </section>
+    <main>
+      <h1>Sobre Nosotros</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias
+        labore architecto eligendi veritatis excepturi officiis mollitia
+        praesentium ad ipsa! Voluptatibus quibusdam obcaecati eius eligendi
+        soluta reiciendis praesentium voluptatem eaque illo.
+      </p>
+      <div>
+        <img
+          src="https://scontent.feze7-1.fna.fbcdn.net/v/t1.6435-9/139599057_1031437497341408_502681272383296813_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=h5kgJbta4RAAX8QeTIg&_nc_ht=scontent.feze7-1.fna&oh=00_AT9REgjdk5u3AUuPrYmjaHv4s1jSQoyFmIJGs_2mjeemfA&oe=622771A8"
+          class="img-thumbnail"
+          alt="Nosotros"
+        />
       </div>
-    </nav>
+    </main>
+    <!--Footer-->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link px-2 text-muted"
+              ><font style="vertical-align: inherit"
+                ><font style="vertical-align: inherit">Inicio</font></font
+              ></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/Paginas/nosotros.html" class="nav-link px-2 text-muted"
+              ><font style="vertical-align: inherit"
+                ><font style="vertical-align: inherit">Nosotros</font></font
+              ></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/Paginas/productos.html" class="nav-link px-2 text-muted"
+              ><font style="vertical-align: inherit"
+                ><font style="vertical-align: inherit">Productos</font></font
+              ></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/Paginas/ayuda.html" class="nav-link px-2 text-muted"
+              ><font style="vertical-align: inherit"
+                ><font style="vertical-align: inherit">Ayuda</font></font
+              ></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/Paginas/contacto.html" class="nav-link px-2 text-muted"
+              ><font style="vertical-align: inherit"
+                ><font style="vertical-align: inherit">Contacto</font></font
+              ></a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-muted">
+          <font style="vertical-align: inherit"
+            ><font style="vertical-align: inherit"
+              >© 2021 Empresa, Inc.</font
+            ></font
+          >
+        </p>
+      </footer>
+    </div>
+    <!--Link cdn js bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

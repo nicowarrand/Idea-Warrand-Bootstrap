@@ -1,0 +1,47 @@
+.navbar-brand {
+  background-color: #7f5597; }
+
+.pepito {
+  background-color: #7f5597; }
+
+.offcanvas-header {
+  background-color: #a59a9e; }
+
+body {
+  background-color: #7f5597; }
+
+.navbar {
+  padding: 0%; }
+
+.text-muted {
+  color: white !important; }
+
+.btn-primary {
+  background-color: #7f5597;
+  border-color: white; }
+
+.navbar-brand img {
+  max-width: 175px; }
+
+.img-thumbnail {
+  max-width: 550px; }
+
+main h1 {
+  font-size: 70px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: white; }
+
+.bi-whatsapp {
+  font-size: 50px;
+  position: fixed;
+  top: 50%;
+  z-index: 9999;
+  padding: 0.3rem;
+  background: white;
+  right: 0;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  color: black; }
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }

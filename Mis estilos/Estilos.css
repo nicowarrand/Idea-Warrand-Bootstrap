@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "josephsophia";
+  src: url("/Fonts/josephsophia/josephsophia.ttf");
+}
 .navbar-brand {
   background-color: #7f5597;
 }
@@ -46,4 +50,13 @@ main h1 {
 }
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+h5 {
+  font-size: 50px;
+  font-family: "josephsophia";
+  color: #86f2ff;
+}
+.card-title {
+  color: black;
+  font-size: 35px;
 }

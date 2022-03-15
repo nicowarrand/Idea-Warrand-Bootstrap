@@ -26,6 +26,7 @@ body {
 }
 .navbar-brand img {
   max-width: 175px;
+  margin-bottom: 40px;
 }
 .img-thumbnail {
   max-width: 550px;
@@ -46,7 +47,7 @@ main h1 {
   right: 0;
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
-  color: black;
+  color: #00bb2d;
 }
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
@@ -59,4 +60,49 @@ h5 {
 .card-title {
   color: black;
   font-size: 35px;
+}
+main h1 {
+  font-family: "josephsophia";
+  font-size: 70px;
+  text-align: center;
+}
+p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+div h1 {
+  color: white;
+  text-align: center;
+  font-family: "josephsophia";
+  font-size: 70px;
+}
+.accordion-button {
+  background-color: #3d3441;
+  color: white;
+  font-size: 20px;
+}
+.accordion-collapse {
+  background-color: #3d3441;
+  color: white;
+  font-size: 20px;
+}
+.card-text {
+  color: black;
+  text-align: initial;
+  margin: 0%;
+}
+.nav-link {
+  font-size: 23px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+.form-label {
+  margin-top: 20px;
+}
+.btn {
+  margin-top: 20px;
 }
